@@ -5,12 +5,12 @@
 	-> __interpreters__ -> __python...__
 	这是在你的eclipse打开的状态下才用重新引入
 3. 在项目中引入相关的库,并获取__connection__
-	```python
+```python
 	import MySQLdb
 	conn = MySQLdb.Connect(host="127.0.0.1", 
                            user="root", passwd="root", port=3306,
                            db="python")
-	```
+```
 4. 几个重要的方法
 `Connect()`、`cursor()`、`cursor.execute(sql)`、`fetchall()`、`fetchone()`、`fetchmany()`
 5. 记得为文件设置编码
